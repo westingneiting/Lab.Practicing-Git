@@ -1,0 +1,59 @@
+/* make sure to be careful, you're affecting all pages with this stylesheet.*/
+*{
+    background-color: #de8232;
+    
+}
+h3{
+    color: ivory;
+    padding-top: .25in;
+    margin-left: .25in;
+}
+nav{
+    display: inline;
+    padding: 2px;
+    margin-left: .25in;    
+}
+img{
+    width: 360px;
+}
+.pics{
+    width: 200px;
+    display: inline;
+
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+.header{
+    padding: .25in;
+    margin-right: 0.25in;
+
+}
+.main{
+    padding: 0.25in;
+    margin-left: 0.25in;
+    margin-right: 0.25in;
+}
+h1{color: ivory;
+}
+li{
+    background-color: ivory; 
+}
+h2{background-color: ivory;}
+main{background-color: ivory;}
+p{background-color: ivory;
+}
+.footer{
+    padding: 0.25in;
+    margin-left: 0.25in;
+    margin-right: 0.25in;
+    background-color: ivory;
+}
+.bold{
+    background-color: ivory;
+}

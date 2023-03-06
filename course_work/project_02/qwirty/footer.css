@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(1, 25, 73);
+    padding: 1rem;
+    font-family: Dosis;
+    justify-content: center;
+}
+section{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+section :last-of-type{
+    margin-right: none;
+
+}
+h2{
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: small;
+
+}
+footer :hover{
+    border-bottom: 1px solid white;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,54 @@
+#app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color: gray;
+    padding: 5px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: lightgray;
+
+}
+section{
+    background-color: #bababa;
+}
+article{
+    margin: 10px;
+}
+nav{
+    display: flex;
+    flex: 0 0 10rem;
+    flex-direction: column;
+    margin: 10px;
+
+}
+aside{
+    flex: 0 0 10rem;
+    background-color: yellow;
+}
+.ad{
+   margin: 25px;
+   border-color: black;
+   border: 1px;
+}
+a{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    text-transform: uppercase;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+nav a:last-child{
+    margin-bottom: 0px
+}
+footer{
+    background-color: gray;
+    padding: 5px;
+}

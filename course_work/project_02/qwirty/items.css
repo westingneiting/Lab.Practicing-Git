@@ -1,0 +1,44 @@
+.items{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Open Sans;
+    align-items: flex-start;
+    flex-grow: 1;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 100px;
+    margin: 12px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    box-shadow:  0 2px 5px -2px black;
+}
+.item-name{
+    background-color: #44b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.item-description{
+    padding: 5px;
+
+}
+.fact-line{
+    background-color: #44b;
+    color: white;
+    padding: 5px;
+}
+@media (max-width: 768px){
+    .item{
+       font-size: larger;
+       flex-basis: 100%;
+       flex-direction: column;
+    }
+}
+:nth-child(12){
+    margin-bottom: 32px;
+}

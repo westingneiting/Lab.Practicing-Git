@@ -1,0 +1,105 @@
+header{
+    font-family: 'Dosis', sans-serif;
+    font-size: small;
+}
+header .material-icons{
+    font-size: large;
+}
+.main-nav{
+    display: flex;
+    background-color: #44b;
+    justify-content: space-between;
+    padding-bottom: 0px;
+}
+.main-nav ul{
+    list-style: none;
+}
+.main-nav a{
+    text-decoration: none;
+    color: white;
+}
+.main-nav .full-width{
+    display: none;
+}
+.short-width{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-list a{
+    padding: 5px;
+    padding-top: 5px;
+    border-right: 1px white solid;
+}
+.nav-list li:last-of-type a { 
+    border-right: none;
+}
+.sub-nav{
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    margin: 10px;
+    height: 20px;
+
+}
+.sub-nav .search-form{
+    display: flex;
+    flex-basis: 50vw;
+}
+input{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #44b;
+    flex: 100vw;
+}
+button{
+    background-color: #44b;
+    color: white;
+    border: none;
+}
+.company-name{
+    display: flex;
+    padding-left: 3em;
+    color: #44b;
+    font-size: x-large;
+    font-family: initial;
+    font-variant: small-caps;
+}
+
+.credit-offer{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+header :hover {
+    box-shadow: 0 2px 5px -2px black;
+}
+@media (min-width: 768px){
+    .main-nav .full-width{
+        display: flex;
+    }
+    .short-width{
+        display: none;
+    }
+}
+@media (max-width: 580px){
+.credit-offer{
+    display: none;
+}
+.sub-nav{
+    justify-content: space-between;
+}
+input{
+    margin-left: 1em;
+
+}
+}

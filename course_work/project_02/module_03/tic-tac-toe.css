@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.board{
+    display: flex;
+    height: 360px;
+    width: 360px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cell{
+    height: 120px;
+    width: 120px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:nth-child(3n){
+    border-right: none;
+}
+:nth-child(n){
+    border-left: none;
+}
+:nth-child(-n+6){
+    border-bottom: none;
+}
+:nth-child(1){
+    border-top: none;
+}
+:nth-child(2){
+    border-top: none;
+}
+:nth-child(3){
+    border-top: none;
+}
+:nth-child(7){
+    border-bottom: none;
+}
+:nth-child(8){
+    border-bottom: none;
+}
+:nth-child(9){
+    border-bottom: none;
+}
